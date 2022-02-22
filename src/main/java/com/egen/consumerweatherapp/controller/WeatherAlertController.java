@@ -9,7 +9,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class WeatherAlertController {
+public class
+
+
+
+WeatherAlertController {
 
     private AlertService alertService;
     public  WeatherAlertController(AlertService alertService){
